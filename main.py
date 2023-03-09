@@ -9,3 +9,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+def main():
+celcius = int(input('Enter the Celcius Degree: '))
+fahrenheit = (9.0 / 5.0) * celcius + 32
+print(f'The Fahrenheit is {fahrenheit:.2f}')
